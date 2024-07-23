@@ -1,0 +1,168 @@
+.bodyText,
+.textHeading {
+  position: relative;
+  max-width: 100%;
+}
+.textHeading {
+  flex: 1;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 600;
+  display: inline-block;
+}
+.bodyText {
+  width: 402px;
+  font-size: var(--single-line-body-base-size);
+  line-height: 140%;
+  color: var(--text-default-default);
+  display: none;
+}
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-300);
+  max-width: 100%;
+}
+.starIcon {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 16px;
+}
+.button1,
+.starIcon,
+.xIcon {
+  position: relative;
+}
+.button1 {
+  align-self: stretch;
+  line-height: 100%;
+}
+.xIcon {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 16px;
+}
+.button {
+  align-self: stretch;
+  border-radius: var(--radius-200);
+  background-color: var(--background-neutral-tertiary);
+  border: 1px solid var(--border-neutral-secondary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-300) var(--padding-2xs);
+  gap: var(--space-200);
+}
+.starIcon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 16px;
+}
+.button3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.xIcon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 16px;
+}
+.button2,
+.buttonGroup {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+.button2 {
+  align-self: stretch;
+  border-radius: var(--radius-200);
+  background-color: var(--background-brand-default);
+  border: 1px solid var(--background-brand-default);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--space-300) var(--padding-2xs);
+  gap: var(--space-200);
+  color: var(--text-brand-on-brand);
+}
+.buttonGroup {
+  height: 40px;
+  width: 402px;
+  justify-content: flex-end;
+  gap: var(--space-400);
+  max-width: 100%;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+}
+.xIcon2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconButton,
+.question {
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.iconButton {
+  height: 36px;
+  width: 36px;
+  border-radius: var(--scale-06);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-200);
+}
+.question {
+  flex: 1;
+  box-shadow: var(--drop-shadow-400);
+  border-radius: var(--corner-extra-large);
+  background-color: var(--background-brand-default);
+  border: 1px solid var(--border-default-default);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-12xl) var(--padding-xs);
+  gap: var(--space-600);
+  min-width: 369px;
+  max-width: 600px;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--text-neutral-on-neutral);
+  font-family: var(--single-line-body-base);
+}
+@media screen and (max-width: 850px) {
+  .question {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .textHeading {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+}

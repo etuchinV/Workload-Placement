@@ -1,0 +1,200 @@
+.screenshot202406261346281 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.screenshot202406261347101 {
+  height: 816px;
+  width: 214px;
+  position: relative;
+  object-fit: cover;
+}
+.workloadPlacement {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.workloadPlacementWrapper {
+  width: 485px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.headerbodyDividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -1px;
+}
+.value {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+}
+.vsadSelect1,
+.xIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.xIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.vsadSelect1 {
+  width: 314px;
+  border-radius: var(--radius-full);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 15px var(--padding-lg) var(--space-400);
+  gap: var(--space-200);
+  white-space: nowrap;
+}
+.labelText {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.beginButton,
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.stateLayer {
+  flex: 1;
+  padding: var(--padding-8xs) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.beginButton {
+  align-self: stretch;
+  border-radius: 100px;
+  background-color: var(--labels-primary);
+  overflow: hidden;
+}
+.beginButtonWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 283px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 25px;
+  color: #fff9f9;
+}
+.beginButtonWrapper,
+.frameParent,
+.headerbodyDividerParent,
+.vsadSelectParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vsadSelectParent {
+  width: 778px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+}
+.frameParent,
+.headerbodyDividerParent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.headerbodyDividerParent {
+  gap: 20.9px;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+}
+.frameParent {
+  gap: 4px;
+}
+.frameWrapper,
+.screenshot202406261347101Parent,
+.vsadSelect {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 48px 0 0;
+  max-width: calc(100% - 241px);
+}
+.screenshot202406261347101Parent,
+.vsadSelect {
+  max-width: 100%;
+}
+.screenshot202406261347101Parent {
+  width: 2176px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-8xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--labels-primary);
+  font-family: var(--single-line-body-base);
+}
+.vsadSelect {
+  width: 2313px;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 274px;
+  gap: var(--gap-12xs-5);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .screenshot202406261347101 {
+    display: none;
+  }
+  .frameWrapper {
+    max-width: 100%;
+  }
+  .screenshot202406261347101Parent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .workloadPlacement {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .workloadPlacement {
+    font-size: var(--heading-size);
+  }
+  .labelText {
+    font-size: 20px;
+  }
+}

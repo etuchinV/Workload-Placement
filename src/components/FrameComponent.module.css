@@ -1,0 +1,68 @@
+.selectQuestion {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 256px;
+  max-width: 100%;
+}
+.frameChild {
+  width: 38px;
+  height: 21px;
+  position: relative;
+}
+.dropdownMenu,
+.dropdownMenuInner,
+.dropdownMenuWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropdownMenuInner {
+  flex-direction: column;
+  padding: var(--padding-base-5) 0 0;
+}
+.dropdownMenu,
+.dropdownMenuWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dropdownMenu {
+  align-self: stretch;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  border: 3px solid var(--labels-primary);
+  overflow-y: auto;
+  flex-direction: row;
+  padding: var(--padding-7xl) var(--padding-8xl);
+  gap: var(--gap-3xs);
+}
+.dropdownMenuWrapper {
+  width: 502px;
+  flex-direction: column;
+  padding: var(--padding-66xl) 0 0;
+  min-width: 502px;
+  text-align: left;
+  font-size: var(--m3-display-medium-size);
+  color: var(--labels-primary);
+  font-family: var(--single-line-body-base);
+}
+@media screen and (max-width: 1225px) {
+  .dropdownMenuWrapper {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .selectQuestion {
+    font-size: var(--font-size-17xl);
+  }
+  .dropdownMenuWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .selectQuestion {
+    font-size: var(--font-size-8xl);
+  }
+  .dropdownMenu {
+    flex-wrap: wrap;
+  }
+}
