@@ -5,7 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import FrameComponent from "./components/FrameComponent";
+import InitialScreen from "./components/InitialScreen";
+import React from "react";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +46,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<FrameComponent />} />
+      <Route path="/" element={<InitialScreen />} />
     </Routes>
   );
 }
